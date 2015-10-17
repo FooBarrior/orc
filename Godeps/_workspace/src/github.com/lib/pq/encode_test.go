@@ -1,7 +1,7 @@
 package pq
 
 import (
-	"github.com/lib/pq/oid"
+    "github.com/klenin/orc/Godeps/_workspace/src/github.com/lib/pq/oid"
 
 	"bytes"
 	"fmt"

@@ -7,7 +7,7 @@ import (
     "encoding/hex"
     "encoding/json"
     "fmt"
-    "github.com/lib/pq"
+    "github.com/klenin/orc/Godeps/_workspace/src/github.com/lib/pq"
     "log"
     "net/http"
     // "os"

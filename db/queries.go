@@ -2,15 +2,15 @@ package db
 
 import (
     "database/sql"
+    "errors"
     "fmt"
-    _ "github.com/lib/pq"
+    _ "github.com/klenin/orc/Godeps/_workspace/src/github.com/lib/pq"
     "github.com/klenin/orc/utils"
     "log"
     "reflect"
     "strconv"
     "strings"
     "time"
-    "errors"
 )
 
 var DB *sql.DB = nil

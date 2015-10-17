@@ -2,7 +2,7 @@ package controllers
 
 import (
     "errors"
-    "github.com/lib/pq"
+    "github.com/klenin/orc/Godeps/_workspace/src/github.com/lib/pq"
     "github.com/klenin/orc/db"
     "github.com/klenin/orc/mailer"
     "github.com/klenin/orc/sessions"

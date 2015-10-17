@@ -1,7 +1,7 @@
 package sessions
 
 import (
-    "github.com/gorilla/securecookie"
+    "github.com/klenin/orc/Godeps/_workspace/src/github.com/gorilla/securecookie"
     "log"
     "net/http"
     "time"

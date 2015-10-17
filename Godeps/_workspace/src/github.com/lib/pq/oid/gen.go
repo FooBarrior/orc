@@ -11,7 +11,7 @@ import (
 	"os/exec"
 
 	"database/sql"
-	_ "github.com/lib/pq"
+    _ "github.com/klenin/orc/Godeps/_workspace/src/github.com/lib/pq"
 )
 
 func main() {
